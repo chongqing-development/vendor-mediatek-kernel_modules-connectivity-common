@@ -1,3 +1,6 @@
+export MTK_PLATFORM_WMT=MT6835
+export TARGET_BOARD_PLATFORM_WMT=mt6835
+
 ccflags-y :=
 ifeq ($(MTK_PLATFORM),)
 ifneq ($(MTK_PLATFORM_WMT),)
